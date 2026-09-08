@@ -1,0 +1,16 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{color:#333;background:#f6f8f7}
+header{background:#006b4f;color:white;padding:15px 8%;display:flex;justify-content:space-between;align-items:center}
+.logo-area{display:flex;gap:15px;align-items:center}.logo-area img{width:90px}
+nav a{color:white;text-decoration:none;margin:10px;font-weight:bold}
+.hero{height:75vh;background:linear-gradient(rgba(0,90,65,.75),rgba(0,90,65,.75)),url('imagens/equipa.jpg') center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:white}
+.hero h2{font-size:50px}
+.botao{background:#f4b400;color:white;padding:15px 30px;border-radius:30px;text-decoration:none}
+section{padding:60px 8%;text-align:center}
+h2{color:#006b4f}
+.galeria,.cards{display:flex;justify-content:center;gap:25px;margin-top:30px}
+.galeria div,.card{background:white;padding:20px;border-radius:15px;width:300px}
+.galeria img{width:100%;height:200px;object-fit:cover}
+.whatsapp{position:fixed;right:20px;bottom:20px;background:#25d366;color:white;padding:15px;border-radius:30px;text-decoration:none}
+footer{background:#004d3b;color:white;padding:25px;text-align:center}
+@media(max-width:800px){header,.galeria,.cards{flex-direction:column}}
